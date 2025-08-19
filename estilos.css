@@ -1,0 +1,76 @@
+/* estilos.css */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.caixa {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: rgb(254, 255, 255);
+  text-align: center;
+  border-radius: 4px;
+}
+
+img {
+  width: 70%;
+  height: auto;
+  border-radius: 4px;
+}
+
+ form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      
+    }
+
+
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+       width: 140px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+
+     .linha {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaço entre os elementos */
+    flex-wrap: wrap; /* permite quebra de linha se necessário */
+    margin-bottom: 20px;
+  }
+
+  .linha label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }

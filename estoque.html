@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estoque</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+       
+        <div class="caixa">
+            <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: #fff;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    table th {
+      background: #007bff;
+      color: #fff;
+    }
+    form {
+      margin-top: 30px;
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    form label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      border: none;
+      background: #007bff;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .menu {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .menu a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  
+
+  <h1>Estoque de Carros</h1>
+
+  <table>
+    <tr>
+      <th>Código</th>
+      <th>Nome</th>
+      <th>Quantidade</th>
+      <th>Preço Unitário</th>
+      <th>Preço Total</th>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>Neon Surpresa</td>
+      <td>10</td>
+      <td>R$ 150,00</td>
+      <td>R$ 1.500,00</td>
+    </tr>
+    <tr>
+      <td>002</td>
+      <td>Nissan Skyline GT-R (BNR34)</td>
+      <td>8</td>
+      <td>R$ 120,00</td>
+      <td>R$ 960,00</td>
+    </tr>
+    <tr>
+      <td>003</td>
+      <td>Viper SRT 2013</td>
+      <td>5</td>
+      <td>R$ 200,00</td>
+      <td>R$ 1.000,00</td>
+    </tr>
+    <tr>
+      <td>004</td>
+      <td>Dodge Viper Srt10 Acr Serie Mopar</td>
+      <td>12</td>
+      <td>R$ 90,00</td>
+      <td>R$ 1.080,00</td>
+    </tr>
+    <tr>
+      <td>005</td>
+      <td>Minis Loose Carros Americanos  Branco</td>
+      <td>10</td>
+      <td>R$ 150,00</td>
+      <td>R$ 1.500,00</td>
+    </tr>
+    <tr>
+      <td>006</td>
+      <td>Dodge Viper RT/10 Yellow Then and Now 281/365 2017 :</td>
+      <td>8</td>
+      <td>R$ 120,00</td>
+      <td>R$ 960,00</td>
+    </tr>
+    <tr>
+      <td>007</td>
+      <td>'68 Mustang - Super T-Hunt - FKB39</td>
+      <td>5</td>
+      <td>R$ 200,00</td>
+      <td>R$ 1.000,00</td>
+    </tr>
+    <tr>
+      <td>008</td>
+      <td>1968 Mustang - DTX47 Roda 4x4</td>
+      <td>12</td>
+      <td>R$ 90,00</td>
+      <td>R$ 1.080,00</td>
+    </tr>
+    <tr>
+      <td>009</td>
+      <td>Tekli Araba 68' Mustang GTC21</td>
+      <td>10</td>
+      <td>R$ 150,00</td>
+      <td>R$ 1.500,00</td>
+    </tr>
+    <tr>
+      <td>010</td>
+      <td>2002 negro 1968 ford</td>
+      <td>8</td>
+      <td>R$ 120,00</td>
+      <td>R$ 960,00</td>
+    </tr>
+    <tr>
+      <td>011</td>
+      <td>PULL-BACK SPEEDERS - 1969 FORD MUSTANG</td>
+      <td>5</td>
+      <td>R$ 200,00</td>
+      <td>R$ 1.000,00</td>
+    </tr>
+    <tr>
+      <td>012</td>
+      <td>Gulf Fiat 500D Modificado '60s</td>
+      <td>12</td>
+      <td>R$ 90,00</td>
+      <td>R$ 1.080,00</td>
+    </tr>
+  </table>
+<div> <br>
+  <form>
+    <h2>Alterar Estoque</h2>
+    <label for="codigo">Código do Produto:</label>
+    <input type="text" id="codigo" name="codigo" required>
+
+    <label for="acao">Ação:</label>
+    <select id="acao" name="acao">
+      <option value="adicionar">Adicionar</option>
+      <option value="remover">Remover</option>
+    </select>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" name="quantidade" required>
+
+    <button type="submit">Atualizar Estoque</button>
+  </form>
+  </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="include.js"></script>
+</body>
+
+</html>
