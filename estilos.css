@@ -484,8 +484,7 @@ form {
     /* ... outras regras para botões, etc. ... */
 }
 
-
-/* Classe para alinhar a segunda coluna de uma tabela à esquerda */
+/* Classe para alinhar a segunda coluna de uma tabela à esquerda.*/
 .align-second-column-left th:nth-child(2),
 .align-second-column-left td:nth-child(2) {
     text-align: left;
