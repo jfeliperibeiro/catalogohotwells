@@ -2,96 +2,47 @@
 <html>
 
 <head>
-  <title>Loja de Hot Wells</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Vintage Racing HotWheels</title>
   <link rel="stylesheet" href="estilos.css">
+
+   <!-- Estas semanas tenho apreendido muito e só isso já é muito gratificante, este projeto foi feito com meu aprendizado em aula, revisões , pesquisas e uma ajuda forte das IAs, 
+    confeso que ainda não conseguiria desenvolver qualquer projeto sem a consulta do materia de aula ou sem as pesquisas na web, mas muitas coisas eu adiqueri nestas aulas 
+    a primeira delas foi a coragem de tentar, errar e aprender com os erros, a segunda foi a persistência de não desistir e a terceira foi a humildade de reconhecer 
+    que sempre é tempo de recomecar e aprender algo novo.
+    Agora o mais importante rs não tenho mais medo do HTML e do CSS, sei que é só o começo de uma longa jornada mas estou muito feliz por ter chegado até aqui 
+    sabendo que não ha limites para o frontend pois podemos criar um mundo dentro de uma pagina. 
+    Agradeço ao professor Mateus Paixão pela paciência e dedicação em compartilhar seu conhecimento, e a ADA TECH por proporcionar este curso que tem sido 
+    uma jornada incrível de aprendizado.-->
+
+  <!-- TAG META -->
+  <meta name="description" content="Projeto TCC catalogo loja virtual hotwhells - estudos, testes e aprendizados" />
+  <meta name="keywords" content="Estudos, HTML, CSS, tentativa , primeiro projeto, luta , coragem , curiosidades, hotwhells , carros , carrinhos, coleções, diversos  " />
+
+  <!-- Para blogs, artigos... -->
+  <meta name="author" content="Felipe Ribeiro" />
 
 </head>
 
-<body>
+<body onload="carregarPagina('catalogo.html')">
+
   <div id="header-placeholder"></div>
 
-  <main>
-   
-    <p style="text-align: center;">Bem-vindo à nossa loja de Hot Wells! Aqui você encontrará uma variedade de produtos
-      para atender às suas necessidades.</p>
+  <nav class="caixa">
+    <a href="#" onclick="carregarPagina('catalogo.html')" class="btn">Catalogo</a>
+    <a href="#" onclick="carregarPagina('carrinho.html')" class="btn">Compras</a>
+    <a href="#" onclick="carregarPagina('estoque.html')" class="btn">Estoque</a>
+    <a href="#" onclick="carregarPagina('cadastro.html')" class="btn">Cadastro</a>
+    <a href="#" onclick="carregarPagina('avaliacao.html')" class="btn">Avaliação</a>
+    <a href="https://github.com/jfeliperibeiro/catalogohotwells"  target="_blank" class="btn">Projeto</a>
+  </nav>
 
-    </head>
-    <body>
-      
-      <h1>Catálogo de Carros</h1>
-
-      <div class="grid">
-        
-          <div class="produto">
-            <img src="imagens/001.jpg" alt="Neon Surpresa">
-            <h3>CNeon Surpresa</h3>
-            <p>R$ 150,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/002.jpg" alt="Nissan Skyline GT-R (BNR34)">
-            <h3>Nissan Skyline GT-R (BNR34)</h3>
-            <p>R$ 120,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/003.jpg" alt="Viper SRT 2013">
-            <h3>Viper SRT 2013</h3>
-            <p>R$ 200,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/004.jpg" alt="Dodge Viper Srt10 Acr Serie Mopar ">
-            <h3>Dodge Viper Srt10 Acr Serie Mopar</h3>
-            <p>R$ 90,00</p>
-          </div>
-     
-          <div class="produto">
-            <img src="imagens/005.jpg" alt="Minis Loose Carros Americanos  Branco">
-            <h3>Minis Loose Carros Americanos Branco</h3>
-            <p>R$ 150,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/006.jpg" alt="Dodge Viper RT/10 Yellow Then and Now 281/365 2017">
-            <h3>Dodge Viper RT/10 Yellow Then and Now 281/365 2017</h3>
-            <p>R$ 120,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/007.jpg" alt="V '68 Mustang - Super T-Hunt - FKB39">
-            <h3> '68 Mustang - Super T-Hunt - FKB39</h3>
-            <p>R$ 200,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/008.jpg" alt="1968 Mustang - DTX47 Roda 4x4">
-            <h3>1968 Mustang - DTX47 Roda 4x4</h3>
-            <p>R$ 90,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/009.jpg" alt="Tekli Araba 68' Mustang GTC21">
-            <h3>Tekli Araba 68' Mustang GTC21</h3>
-            <p>R$ 150,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/010.jpg" alt="2002 negro 1968 ford">
-            <h3>2002 negro 1968 ford</h3>
-            <p>R$ 120,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/011.jpg" alt="VPULL-BACK SPEEDERS - 1969 FORD MUSTANG">
-            <h3>VPULL-BACK SPEEDERS - 1969 FORD MUSTANG</h3>
-            <p>R$ 200,00</p>
-          </div>
-          <div class="produto">
-            <img src="imagens/012.jpg" alt="Gulf Fiat 500D Modificado '60s">
-            <h3>DGulf Fiat 500D Modificado '60s</h3>
-            <p>R$ 90,00</p>
-          </div>
-        
-
-
-      </div>
-
-
-
-
+  <main id="conteudo">
+    <!-- Aqui será carregado o conteúdo das outras páginas -->
   </main>
+
 
   <div id="footer-placeholder"></div>
 
