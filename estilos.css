@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 30px;
   height: 80vh;
-  background: url('/imagens/hotwheels_background.jpg') no-repeat center center;
+  background: url('imagens/hotwheels_background.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed; /* opcional: mantém o fundo fixo ao rolar */
 }
@@ -517,7 +517,7 @@ form {
   #cart-table th,
   #cart-table td {
     border: 1px solid #eee;
-    padding: 10px;
+    padding: 5px;
     text-align: left;
   }
 
@@ -532,7 +532,7 @@ form {
   }
 
   .quantity-controls button {
-    background-color: #6c757d; /* Cinza */
+    background-color: transparent; 
     color: white;
     border: none;
     padding: 5px 8px;
@@ -550,7 +550,7 @@ form {
     background-color: #dc3545; /* Vermelho */
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -614,7 +614,7 @@ form {
   /* Responsividade */
   @media (max-width: 600px) {
     #cart-table thead {
-      display: none; /* Esconde cabeçalho da tabela em mobile */
+      /*display: none; Esconde cabeçalho da tabela em mobile */
     }
 
     #cart-table,
@@ -622,12 +622,12 @@ form {
     #cart-table tr,
     #cart-table td {
       display: block;
-      width: 100%;
+      width: 85%;
     }
 
     #cart-table tr {
       margin-bottom: 15px;
-      border: 1px solid #ddd;
+      border: 0px solid #ddd;
       border-radius: 5px;
       padding: 10px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
